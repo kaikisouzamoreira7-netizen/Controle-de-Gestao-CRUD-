@@ -1,0 +1,5 @@
+banco.db
+banco_corrompido_backup.db
+verificar_banco.py
+__pycache__/
+*.pyc

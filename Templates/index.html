@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sistema de Controle Administrativo</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <h1>Sistema de Controle Administrativo</h1>
+        <p>Controle e organização de registros</p>
+    </header>
+
+    <main>
+
+        <section class="cadastro">
+            <h2>Cadastrar registro</h2>
+
+            <form id="formCadastro">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite o nome">
+
+                <label for="setor">Setor:</label>
+                <input type="text" id="setor" placeholder="Digite o setor">
+
+                <label for="cargo">Cargo:</label>
+                <input type="text" id="cargo" placeholder="Digite o cargo">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Digite o e-mail">
+
+                <button type="submit">Cadastrar</button>
+
+            </form>
+        </section>
+
+        <section class="registros">
+            <h2>Registros cadastrados</h2>
+
+            <div id="listaRegistros">
+                <p>Nenhum registro cadastrado.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
