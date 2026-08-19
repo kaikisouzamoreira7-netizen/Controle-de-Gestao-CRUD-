@@ -216,7 +216,7 @@ Algumas melhorias que podem ser adicionadas ao projeto futuramente:
 
 ## 👨‍💻 Autor
 
-**Kaiki Souza**
+**Kaiki de Souza Moreira**
 
 Projeto desenvolvido como parte do meu aprendizado e evolução na programação.
 
